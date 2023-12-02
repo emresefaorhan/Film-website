@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--! navbar start  -->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <h1 class="logo">WOW MOVIES</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">MAIN MENU</li>
+            <li class="menu-list-item">FILMS</li>
+            <li class="menu-list-item">SERIES</li>
+            <li class="menu-list-item">MY LISTS</li>
+            <li class="menu-list-item">POPULAR</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profile-picture" src="img/profile.jpg" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">PROFILE</span>
+            <i class="bi bi-caret-down-fill"></i>
+          </div>
+          <div class="toggle">
+            <i class="bi bi-moon-fill toggle-icon"></i>
+            <i class="bi bi-brightness-high-fill toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--! navbar end  -->
+
+    <!--! sidebar start  -->
+    <div class="sidebar">
+      <i class="bi bi-search"></i>
+      <i class="bi bi-house-door-fill"></i>
+      <i class="bi bi-people-fill"></i>
+      <i class="bi bi-bookmarks-fill"></i>
+      <i class="bi bi-hourglass-top"></i>
+      <i class="bi bi-cart-fill"></i>
+      <i class="bi bi-gear-fill"></i>
+    </div>
+    <!--! sidebar end  -->
+
+    <!--! content start  -->
+    <div class="container">
+      <!-- featured content start -->
+      <div class="content-wrapper">
+        <div class="featured-content">
+          <img class="featured-title" src="" alt="" />
+          <p class="featured-desc">
+            Ghosted is a 2023 American romantic action-adventure comedy film directed by Dexter Fletcher and written by Rhett Reese, Paul Wernick, Chris McKenna, and Erik Sommers, from a story by Reese and Wernick. The film stars Chris Evans and Ana de Armas.
+          </p>
+          <div class="featured-buttons">
+            <button class="play-button">
+              <i class="bi bi-play-circle"></i>
+              Play
+            </button>
+            <button class="info-button">
+              <i class="bi bi-info-circle"></i>
+              Get info
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- featured content end -->
+
+      <!-- filter start -->
+      <div class="movie-list-filter">
+        <select>
+          <option>Action</option>
+          <option>Animation</option>
+          <option>Documentaries</option>
+          <option>Comedy</option>
+          <option>Science Fiction</option>
+        </select>
+      </div>
+      <!-- filter end -->
+
+      <!-- movie list start -->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">POPULAR</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-1.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Ghosted</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-2.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Blue Beetle</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-3.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Infinity Pool</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-4.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Ninja Turtles: Mutant Mayhem</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-5.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Dumb Money</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-6.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Oppenheimer</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-7.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">They Cloned Tyrone</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">KIDS</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/KIDS2.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">The Amazing Maurice</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids3.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Mummies</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids4.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">The Magician's Elephant</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids5.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">We Lost Our Human</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids6.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">The Super Mario</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids7.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Chupa</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids8.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Crater</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">THE NEWESTS</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-4.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Ninja Turtles: Mutant Mayhem</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-6.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Oppenheimer</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-7.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">They Cloned Tyrone</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-1.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Ghosted</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids5.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">We Lost Our Human</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Kids4.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">The Magician's Elephant</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/Popular-5.jpeg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Dumb Money</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-chevron-right arrow"></i>
+        </div>
+      </div>
+      <!-- movie list end -->
+    </div>
+    <!--! content start  -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
